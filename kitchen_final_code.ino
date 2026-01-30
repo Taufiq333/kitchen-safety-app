@@ -12,10 +12,10 @@ const int fanPin = 19, pumpPin = 18, ledRed = 33, buzzer = 4;
 
 // Config
 const char* ssid = "iot";
-const char* password = "12121212";
+const char* password = "xxxxxxx";
 const char* mqtt_server = "broker.emqx.io";
-const char* phone1 = "01721118389";
-const char* phone2 = "01998787878";
+const char* phone1 = "Your_Number";
+const char* phone2 = "Your_Number";
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Servo windowServo, gasServo;
